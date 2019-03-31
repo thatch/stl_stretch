@@ -5,6 +5,9 @@ import sys
 import struct
 import optparse
 
+
+__version__ = "0.1"
+
 AXES = {'x': 0, 'y': 1, 'z': 2}
 COUNT_FORMAT = '<I'
 TRIANGLE_FORMAT = '<12fH'
