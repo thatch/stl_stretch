@@ -1,6 +1,7 @@
 import stl
 import unittest
 
+
 class TestLerp(unittest.TestCase):
     def test_lerp(self):
         self.assertEqual(stl.lerp(0, 10, 0.5), 5)
